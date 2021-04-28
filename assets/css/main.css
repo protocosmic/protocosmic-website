@@ -115,8 +115,8 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
-		font-family: Arial, Helvetica, sans-serif;
+		color: rgba(255, 255, 255, 0.9);
+		font-family: 'Roboto', sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
@@ -2536,7 +2536,8 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					/*color: #5e42a6; */
+					background-image: url('./images/1145374.jpg');
 				}
 
 				.wrapper.style1-alt .icon.major:before {
@@ -3524,7 +3525,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #1f1e24;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3873,11 +3874,12 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
+		contain: style;
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		background-image: url("images/1145374.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
-		background-size: 100% 100%;
+		background-size: auto;
 	}
 
 		#intro p {
