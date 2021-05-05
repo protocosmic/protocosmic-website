@@ -2537,7 +2537,7 @@ input, select, textarea {
 
 				.wrapper.style1 .icon.major:before {
 					/*color: #5e42a6; */
-					background-image: url('./images/1145374.jpg');
+					background-image: url('./images/background.svg');
 				}
 
 				.wrapper.style1-alt .icon.major:before {
@@ -3874,12 +3874,12 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		contain: style;
+		contain: content;
 		background-attachment: fixed;
-		background-image: url("images/background.png");
-		background-position: top right;
+		background-image: url("images/background.svg");
+		background-position: center;
 		background-repeat: no-repeat;
-		background-size: auto;
+		background-size: cover;
 	}
 
 		#intro p {
